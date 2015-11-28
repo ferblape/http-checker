@@ -1,0 +1,7 @@
+name: http-check
+version: 0.1.0
+
+authors:
+  - Fernando Blat <ferblape@gmail.com>
+
+license: MIT

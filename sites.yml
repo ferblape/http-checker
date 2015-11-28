@@ -1,0 +1,5 @@
+- domain: "http://populate.tools/"
+  expected: 200
+
+- domain: "http://populate.tools/wadus"
+  expected: 404
