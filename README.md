@@ -5,7 +5,7 @@ status using https://pushover.net/
 
 ## Installation
 
-1 - Copy the binary `bin/http-checker` wherever you want.
+1 - Compile the source code: `crystal build src/http-check/checker.cr -o bin/http-checker`
 
 2 - Set both `HTTP_CHECKER_TOKEN` and `HTTP_CHECKER_USER` environment variables with the token of
 your application and your user token.
