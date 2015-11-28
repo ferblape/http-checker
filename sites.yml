@@ -1,4 +1,4 @@
-- domain: "http://populate.tools/"
+- domain: "http://populate.tools"
   expected: 200
 
 - domain: "http://populate.tools/wadus"
