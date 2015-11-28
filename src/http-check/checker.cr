@@ -17,6 +17,7 @@ class Http::Check::Checker
           if code != expected
             msg = "[#{Time.now.to_s("%Y%m%d %H:%M:%S")}] #{site["domain"]}: expected #{site["expected"]}, received #{code}"
             puts msg
+            notify msg
           else
             puts "[#{Time.now.to_s("%Y%m%d %H:%M:%S")}] #{site["domain"]} - OK! (#{expected})"
           end
