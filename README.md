@@ -5,7 +5,7 @@ status using https://pushover.net/
 
 ## Installation
 
-1 - Compile the source code: `crystal build src/http-check/checker.cr -o bin/http-checker`
+1 - Compile the source code: `crystal build src/cli.cr -o bin/http-checker`
 
 2 - Set both `HTTP_CHECKER_TOKEN` and `HTTP_CHECKER_USER` environment variables with the token of
 your application and your user token.
@@ -17,7 +17,7 @@ your application and your user token.
 Create a file with the list of domains and expected HTTP status code (as an example, we provide the
 `sites.yml` file).
 
-Just call `$ checker sites.yml`
+Just call `$ bin/http-checker sites.yml`
 
 ## Contributing
 
