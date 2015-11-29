@@ -27,6 +27,10 @@ Just call `$ bin/http-checker sites.yml`
 4. Push to the branch (git push origin my-new-feature)
 5. Create a new Pull Request
 
+## Thanks
+
+Thank you [@porras](https://github.com/porras), specially for his Curl replacement [crul](https://github.com/porras/crul) from which I've been inspired.
+
 ## Contributors
 
 - [ferblape](https://github.com/ferblape) Fernando Blat - creator, maintainer
