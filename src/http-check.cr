@@ -28,7 +28,7 @@ module HTTPChecker
           puts msg
           @notifier.notify msg
         else
-          puts "[#{Time.now.to_s("%Y%m%d %H:%M:%S")}] #{site.domain} - OK! (#{code})"
+          puts "[#{Time.now.to_s("%Y%m%d %H:%M:%S")}] #{site.domain} - \e[32mOK\!\e[0m \e[1m(#{code})\e[22m"
         end
       end
     end
